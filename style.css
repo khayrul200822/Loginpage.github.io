@@ -22,7 +22,6 @@
 
 .Login_page .container .page_wrapper .login_form {
     padding: 20px 30px;
-    /* background: cornflowerblue; */
 }
 
 .login_form .form_box {
@@ -96,6 +95,9 @@ a{
 .login_form .form_box .page_links a{
     color: #888;
     margin-right: 20px;
+}
+.login_form .form_box .page_links a:hover{
+    text-decoration: underline;
 }
 .login_form .form_box .login_btn button {
     padding: 15px 65px;
