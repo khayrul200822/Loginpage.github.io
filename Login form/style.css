@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+}
+.Login_page {
+    min-height: 100vh;
+    background: white;
+}
+
+.Login_page .container {
+    max-width: 80%;
+    margin: auto;
+}
+
+.Login_page .container .page_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Login_page .container .page_wrapper .login_form {
+    padding: 20px 30px;
+    /* background: cornflowerblue; */
+}
+
+.login_form .form_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login_form .form_box h2 {
+    font-size: 2.2em;
+    color: #0DC473;
+}
+
+.login_form .form_box span {
+    color: #777;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.login_form .form_box .input_box {
+    position: relative;
+    margin-bottom: 15px;
+    height: 45px;
+    width: 100%;
+}
+
+.login_form .form_box .input_box input {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #0DCA78;
+    border-radius: 5px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    color: #0dca78;
+}
+.login_form .form_box .input_box input:focus{
+    outline: none;
+ border: 1px solid #0DCA78 ;
+}
+   
+
+.login_form .form_box .input_box label {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    transition: all 0.2s;
+}
+.login_form .form_box .cdt_div{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.login_form .form_box .login_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login_form .form_box .page_links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 40px 0px;
+}
+a{
+    text-decoration: none;
+}
+.login_form .form_box .page_links a{
+    color: #888;
+    margin-right: 20px;
+}
+.login_form .form_box .login_btn button {
+    padding: 15px 65px;
+    border-radius: 50px;
+    background: #0DCA78;
+    color: white;
+    font-size: 1em;
+    font-weight: 600;
+    border: 2px solid #0DCA78;
+    width: 100%;
+    transition: all 0.2s;
+}
+
+.Login_page .container .page_wrapper .hello_msg {
+    background: linear-gradient(181deg, #0CCA9A, #0DCA78);
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 20px 100px;
+    text-align: center;
+    color: white;
+}
+
+.Login_page .container .page_wrapper .msg_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ .hello_msg .msg_box h3 {
+    font-size: 2em;
+    color: white;
+    margin-bottom: 20px;
+}
+.msg_box .cir_photo{
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    border-radius: 100%;
+    margin-bottom: 10px;
+}
+.msg_box .cir_photo img{
+    width: 100%;
+    
+}
+.hello_msg .msg_box h3:after {
+    content: " ";
+    width: 50px;
+    height: 3px;
+    background: white;
+    display: block;
+    margin: auto;
+    margin-top: 13px;
+}
+
+ .hello_msg button {
+    padding: 15px 65px;
+    border-radius: 50px;
+    background: transparent;
+    color: white;
+    font-weight: 600;
+    border: 2px solid white;
+    margin-top: 40px;
+    font-size: 1em;
+    transition: all 0.2s;
+}
+
+.checkbox_ctn a {
+    color: black;
+    font-weight: bold;
+}
+
+.cdt_div a {
+    color: black;
+}
+
+.login_form .form_box h2:after {
+    content: " ";
+    width: 80px;
+    height: 3px;
+    background: #0DCA78;
+    display: block;
+    margin: auto;
+    margin-top: 19px;
+}
+
+.checkbox_ctn span {
+    color: black;
+}
+span, p,a {
+    font-size: 0.85em;
+}
+
+.cdt_div a:hover {
+    text-decoration: underline;
+    color: #0DCA78;
+}
+
+.hello_msg button:hover {
+    background: white;
+    color: #0DCA78;
+    transition: all 0.2s;
+    box-shadow: 1px 5px 16px 0px #0000006b;
+}
+.social_site {
+    display: flex;
+    justify-content: space-evenly;
+    width: 200px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.social_site a {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background: white;
+    display: grid;
+    place-items: center;
+    font-size: 1.1em;
+    color: #0DCA78;
+    border: 1px solid #0dca78;
+    transition: all 0.2s;
+}
+
+.social_site a:hover {
+    background: #0DCA78;
+    color: white;
+    transition: all 0.2s;
+}
+.login_form .form_box .login_btn button:hover {
+    border-color: #0dca78;
+    background: white;
+    color: #0dca78;
+    box-shadow: 1px 7px 14px 1px #00000045;
+    transition: all 0.2s;
+}
