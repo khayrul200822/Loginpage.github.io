@@ -167,11 +167,6 @@ a{
     transition: all 0.2s;
 }
 
-.checkbox_ctn a {
-    color: black;
-    font-weight: bold;
-}
-
 .cdt_div a {
     color: #777;
 }
